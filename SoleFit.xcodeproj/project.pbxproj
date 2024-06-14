@@ -11,6 +11,17 @@
 		D227E2C62C19E4CC00BE054E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2C52C19E4CC00BE054E /* ContentView.swift */; };
 		D227E2C82C19E4CE00BE054E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D227E2C72C19E4CE00BE054E /* Assets.xcassets */; };
 		D227E2CB2C19E4CE00BE054E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D227E2CA2C19E4CE00BE054E /* Preview Assets.xcassets */; };
+		D227E2DD2C19E95500BE054E /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2DC2C19E95500BE054E /* IntroductionView.swift */; };
+		D227E2DF2C19E9E700BE054E /* AuthenticationMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2DE2C19E9E700BE054E /* AuthenticationMainView.swift */; };
+		D227E2E22C19F17B00BE054E /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2E12C19F17B00BE054E /* ColorExtension.swift */; };
+		D227E2E42C19F49F00BE054E /* ButtonStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2E32C19F49F00BE054E /* ButtonStyleModifier.swift */; };
+		D227E2E72C19F89900BE054E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2E62C19F89900BE054E /* SignInView.swift */; };
+		D227E2E92C19FC3F00BE054E /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2E82C19FC3F00BE054E /* ViewExtension.swift */; };
+		D227E2EC2C1A009200BE054E /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2EB2C1A009200BE054E /* TextFieldView.swift */; };
+		D227E2EE2C1A11EC00BE054E /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2ED2C1A11EC00BE054E /* VideoView.swift */; };
+		D227E2F02C1A193400BE054E /* PasswordSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2EF2C1A193400BE054E /* PasswordSettingView.swift */; };
+		D227E2F22C1A7E3700BE054E /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2F12C1A7E3700BE054E /* AuthenticationViewModel.swift */; };
+		D227E2F52C1CAA4900BE054E /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227E2F42C1CAA4900BE054E /* Authentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		D227E2C52C19E4CC00BE054E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D227E2C72C19E4CE00BE054E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D227E2CA2C19E4CE00BE054E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D227E2DC2C19E95500BE054E /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		D227E2DE2C19E9E700BE054E /* AuthenticationMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationMainView.swift; sourceTree = "<group>"; };
+		D227E2E12C19F17B00BE054E /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		D227E2E32C19F49F00BE054E /* ButtonStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleModifier.swift; sourceTree = "<group>"; };
+		D227E2E62C19F89900BE054E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D227E2E82C19FC3F00BE054E /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		D227E2EB2C1A009200BE054E /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		D227E2ED2C1A11EC00BE054E /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		D227E2EF2C1A193400BE054E /* PasswordSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSettingView.swift; sourceTree = "<group>"; };
+		D227E2F12C1A7E3700BE054E /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		D227E2F32C1B40DF00BE054E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D227E2F42C1CAA4900BE054E /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,13 @@
 		D227E2C22C19E4CC00BE054E /* SoleFit */ = {
 			isa = PBXGroup;
 			children = (
+				D227E2F32C1B40DF00BE054E /* Info.plist */,
+				D227E2E02C19F16A00BE054E /* Extension */,
+				D227E2D52C19E50C00BE054E /* Common */,
+				D227E2D42C19E4F600BE054E /* UserAccount */,
+				D227E2D32C19E4EC00BE054E /* ObjectCapture */,
+				D227E2D22C19E4E000BE054E /* Purchase */,
+				D227E2D12C19E4D500BE054E /* Authentication  */,
 				D227E2C32C19E4CC00BE054E /* SoleFitApp.swift */,
 				D227E2C52C19E4CC00BE054E /* ContentView.swift */,
 				D227E2C72C19E4CE00BE054E /* Assets.xcassets */,
@@ -65,6 +95,107 @@
 				D227E2CA2C19E4CE00BE054E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D227E2D12C19E4D500BE054E /* Authentication  */ = {
+			isa = PBXGroup;
+			children = (
+				D227E2DB2C19E93F00BE054E /* ViewModel */,
+				D227E2DA2C19E93900BE054E /* Model */,
+				D227E2D92C19E93100BE054E /* View */,
+			);
+			path = "Authentication ";
+			sourceTree = "<group>";
+		};
+		D227E2D22C19E4E000BE054E /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		D227E2D32C19E4EC00BE054E /* ObjectCapture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ObjectCapture;
+			sourceTree = "<group>";
+		};
+		D227E2D42C19E4F600BE054E /* UserAccount */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserAccount;
+			sourceTree = "<group>";
+		};
+		D227E2D52C19E50C00BE054E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D227E2D82C19E58D00BE054E /* Model */,
+				D227E2D72C19E58200BE054E /* View */,
+				D227E2D62C19E57A00BE054E /* Modifier  */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D227E2D62C19E57A00BE054E /* Modifier  */ = {
+			isa = PBXGroup;
+			children = (
+				D227E2E32C19F49F00BE054E /* ButtonStyleModifier.swift */,
+			);
+			path = "Modifier ";
+			sourceTree = "<group>";
+		};
+		D227E2D72C19E58200BE054E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D227E2EB2C1A009200BE054E /* TextFieldView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D227E2D82C19E58D00BE054E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D227E2D92C19E93100BE054E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D227E2DC2C19E95500BE054E /* IntroductionView.swift */,
+				D227E2DE2C19E9E700BE054E /* AuthenticationMainView.swift */,
+				D227E2E62C19F89900BE054E /* SignInView.swift */,
+				D227E2ED2C1A11EC00BE054E /* VideoView.swift */,
+				D227E2EF2C1A193400BE054E /* PasswordSettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D227E2DA2C19E93900BE054E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D227E2F42C1CAA4900BE054E /* Authentication.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D227E2DB2C19E93F00BE054E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D227E2F12C1A7E3700BE054E /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D227E2E02C19F16A00BE054E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D227E2E12C19F17B00BE054E /* ColorExtension.swift */,
+				D227E2E82C19FC3F00BE054E /* ViewExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +268,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D227E2F22C1A7E3700BE054E /* AuthenticationViewModel.swift in Sources */,
 				D227E2C62C19E4CC00BE054E /* ContentView.swift in Sources */,
+				D227E2E72C19F89900BE054E /* SignInView.swift in Sources */,
+				D227E2DF2C19E9E700BE054E /* AuthenticationMainView.swift in Sources */,
+				D227E2F52C1CAA4900BE054E /* Authentication.swift in Sources */,
+				D227E2E42C19F49F00BE054E /* ButtonStyleModifier.swift in Sources */,
+				D227E2DD2C19E95500BE054E /* IntroductionView.swift in Sources */,
+				D227E2F02C1A193400BE054E /* PasswordSettingView.swift in Sources */,
 				D227E2C42C19E4CC00BE054E /* SoleFitApp.swift in Sources */,
+				D227E2EE2C1A11EC00BE054E /* VideoView.swift in Sources */,
+				D227E2E92C19FC3F00BE054E /* ViewExtension.swift in Sources */,
+				D227E2E22C19F17B00BE054E /* ColorExtension.swift in Sources */,
+				D227E2EC2C1A009200BE054E /* TextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +416,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SoleFit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoleFit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +429,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.apple.SoleFit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,11 +449,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SoleFit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoleFit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +462,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.apple.SoleFit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
